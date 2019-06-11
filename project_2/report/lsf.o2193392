@@ -1,0 +1,90 @@
+Sender: LSF System <lsfadmin@lo-s4-019>
+Subject: Job 2193392: <python main_train5.py> in cluster <leonhard> Done
+
+Job <python main_train5.py> was submitted from host <lo-login-02> by user <aeltelt> in cluster <leonhard> at Tue Jun 11 22:54:19 2019
+Job was executed on host(s) <4*lo-s4-019>, in queue <gpu.4h>, as user <aeltelt> in cluster <leonhard> at Tue Jun 11 22:54:29 2019
+</cluster/home/aeltelt> was used as the home directory.
+</cluster/scratch/aeltelt/nlu> was used as the working directory.
+Started at Tue Jun 11 22:54:29 2019
+Terminated at Tue Jun 11 23:13:09 2019
+Results reported at Tue Jun 11 23:13:09 2019
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python main_train5.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   656.31 sec.
+    Max Memory :                                 21645 MB
+    Average Memory :                             15328.03 MB
+    Total Requested Memory :                     32768.00 MB
+    Delta Memory :                               11123.00 MB
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                30
+    Run time :                                   1143 sec.
+    Turnaround time :                            1130 sec.
+
+The output (if any) follows:
+
+WARNING:tensorflow:From main_train5.py:124: softmax_cross_entropy_with_logits (from tensorflow.python.ops.nn_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+
+Future major versions of TensorFlow will allow gradients to flow
+into the labels input on backprop by default.
+
+See `tf.nn.softmax_cross_entropy_with_logits_v2`.
+
+2019-06-11 23:03:02.113467: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-06-11 23:03:02.389724: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1432] Found device 0 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:0c:00.0
+totalMemory: 7.93GiB freeMemory: 7.82GiB
+2019-06-11 23:03:02.389770: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1511] Adding visible gpu devices: 0
+2019-06-11 23:03:02.972350: I tensorflow/core/common_runtime/gpu/gpu_device.cc:982] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-11 23:03:02.972393: I tensorflow/core/common_runtime/gpu/gpu_device.cc:988]      0 
+2019-06-11 23:03:02.972401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1001] 0:   N 
+2019-06-11 23:03:02.973158: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7545 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:0c:00.0, compute capability: 6.1)
+Train set loaded
+
+Val and Tests sets Loaded
+Epoch: 0001 cost= 1426.593890770
+Epoch: 0002 cost= 289.295266673
+Epoch: 0003 cost= 172.625635157
+Epoch: 0004 cost= 121.748777957
+Epoch: 0005 cost= 91.714522505
+Epoch: 0006 cost= 63.345165876
+Epoch: 0007 cost= 57.730834762
+Epoch: 0008 cost= 49.290763273
+Epoch: 0009 cost= 44.951346360
+Epoch: 0010 cost= 38.009016315
+Epoch: 0011 cost= 28.188357395
+Epoch: 0012 cost= 24.107218959
+Epoch: 0013 cost= 18.139612714
+Epoch: 0014 cost= 18.972054215
+Epoch: 0015 cost= 18.762469979
+Epoch: 0016 cost= 17.238179044
+Epoch: 0017 cost= 16.686036147
+Epoch: 0018 cost= 14.209864431
+Epoch: 0019 cost= 13.907764421
+Epoch: 0020 cost= 11.314175036
+Epoch: 0021 cost= 11.278541426
+Epoch: 0022 cost= 10.376873235
+Epoch: 0023 cost= 8.013330241
+Epoch: 0024 cost= 7.942615976
+Epoch: 0025 cost= 8.102135592
+Epoch: 0026 cost= 7.663207753
+Epoch: 0027 cost= 7.171829607
+Epoch: 0028 cost= 6.293806279
+Epoch: 0029 cost= 6.567885164
+Epoch: 0030 cost= 6.448280203
+Optimization Finished!
+Accuracy: 0.5863175
+
+Predicted endings saved
