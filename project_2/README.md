@@ -1,10 +1,10 @@
 # NLU19 project_2: Story Cloze Test
 
 
-## Preparing datasets
+### Preparing datasets
 Run "create_neg_ending.py" to generate random negative ending in the train set and prepare val and test sets:
 
-## Skip_thought embedding
+### Skip_thought embedding
 Pre-trained skip-thoughts embeddings from Ryankiros
 https://github.com/ryankiros/skip-thoughts
 
@@ -13,15 +13,15 @@ https://github.com/ryankiros/skip-thoughts
 - Run "skip_vec.py" to generate Skip_thoughts vectors for the train, val, and test sets:
 	Note: Datasets are stored in .h5 files for further use
 
-## Model
+### Feedforward NN Model
 
-### FFNN TF DNNClassifer 
+#### DNNClassifer
 
 For training on train set run: main_train.py
 
 For training on val set run: main_val.py
 
-###  FFNN custom
+####  Custom Model
 Based on Tensorflow example notebook:
 https://github.com/soerendip/Tensorflow-binary-classification/blob/master/Tensorflow-binary-classification-model.ipynb
 
