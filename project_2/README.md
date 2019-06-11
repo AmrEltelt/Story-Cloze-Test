@@ -1,5 +1,5 @@
-## NLU19 project_2: Story Cloze Test
-
+## NLU19 project_2: Story Cloze Task
+Predicting the End of a Story
 
 ### Preparing datasets
 Run "create_neg_ending.py" to generate random negative ending in the train set and prepare val and test sets:
