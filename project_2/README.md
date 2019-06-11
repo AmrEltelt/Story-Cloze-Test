@@ -25,9 +25,9 @@ https://github.com/ryankiros/skip-thoughts
 
 
 - Run this file to to generate Skip_thoughts vectors for the train, val, and test sets:
-	```
+	``
 	python skip_vec.py
-	```
+	``
 	Note: Datasets are stored in .h5 files for further use
 
 
