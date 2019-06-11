@@ -13,7 +13,8 @@ https://github.com/ryankiros/skip-thoughts
 
 - NLTK need to be installed including NLTK data (nltk.download("punkt"))
 
-- Download the following to '/skip_thoughts/data`:
+- Download the following to '/skip_thoughts/data':
+
 	wget http://www.cs.toronto.edu/~rkiros/models/dictionary.txt
 	wget http://www.cs.toronto.edu/~rkiros/models/utable.npy
 	wget http://www.cs.toronto.edu/~rkiros/models/btable.npy
