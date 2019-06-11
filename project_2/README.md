@@ -14,21 +14,20 @@ https://github.com/ryankiros/skip-thoughts
 - NLTK need to be installed including NLTK data (nltk.download("punkt"))
 
 - Download the following to '/skip_thoughts/data`:
-```
-wget http://www.cs.toronto.edu/~rkiros/models/dictionary.txt
-wget http://www.cs.toronto.edu/~rkiros/models/utable.npy
-wget http://www.cs.toronto.edu/~rkiros/models/btable.npy
-wget http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz
-wget http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz.pkl
-wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz
-wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz.pkl
-```
+	wget http://www.cs.toronto.edu/~rkiros/models/dictionary.txt
+	wget http://www.cs.toronto.edu/~rkiros/models/utable.npy
+	wget http://www.cs.toronto.edu/~rkiros/models/btable.npy
+	wget http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz
+	wget http://www.cs.toronto.edu/~rkiros/models/uni_skip.npz.pkl
+	wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz
+	wget http://www.cs.toronto.edu/~rkiros/models/bi_skip.npz.pkl
+
 
 - Run this file to to generate Skip_thoughts vectors for the train, val, and test sets:
-```
-python skip_vec.py
-```
-Note: Datasets are stored in .h5 files for further use
+	```
+	python skip_vec.py
+	```
+	Note: Datasets are stored in .h5 files for further use
 
 
 ## Model
