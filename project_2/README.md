@@ -1,4 +1,4 @@
-## NLU19 project_2: Story Cloze Task
+## Story Cloze Task
 Predicting the End of a Story
 
 ### Preparing datasets
