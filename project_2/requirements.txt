@@ -15,7 +15,7 @@ mp19-project-skeleton==0.1
 nltk==3.4.5
 numexpr==2.6.9
 numpy==1.16.1
-opencv-python==4.1.0.25
+opencv-python==4.1.1.26
 pandas==0.24.2
 patool==1.12
 protobuf==3.8.0rc1
